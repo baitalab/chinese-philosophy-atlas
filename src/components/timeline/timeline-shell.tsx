@@ -196,10 +196,17 @@ export function TimelineShell({ locale, messages, timeline }: { locale: Locale; 
         : { anchor, factor };
       if (wheelFrame.current !== null) return;
       wheelFrame.current = window.requestAnimationFrame(() => {
-        const pending = pendingWheel.current;
-        pendingWheel.current = null;
-        wheelFrame.current = null;
-        if (pending) setView((current) => zoomAt(current, pending.anchor, current.zoom * pending.factor, CENTER));
+      const pending = pendingWheel.current;
+      pendingWheel.current = null;
+      wheelFrame.current = null;
+      if (pending) {
+        const requestedZoom = readView().zoom * pending.factor;
+        if (requestedZoom < STATIC_OVERVIEW_ZOOM) {
+          setHoverPersonId(null);
+          setHoverStatementId(null);
+        }
+        setView((current) => zoomAt(current, pending.anchor, current.zoom * pending.factor, CENTER));
+      }
       });
     };
     svg.addEventListener("wheel", handleWheel, { passive: false });
@@ -295,7 +302,6 @@ export function TimelineShell({ locale, messages, timeline }: { locale: Locale; 
   const visiblePersonPointMap = useMemo(() => new Map(visiblePeople.map((point) => [point.id, point])), [visiblePeople]);
   const visibleStatementPoints = useMemo(() => buildStatementPoints(visibleStatements, visiblePersonPointMap), [visibleStatements, visiblePersonPointMap]);
   const visibleStatementPointMap = useMemo(() => new Map(visibleStatementPoints.map((point) => [point.id, point])), [visibleStatementPoints]);
-  const hoveredStatement = hoverStatementId ? statementsById.get(hoverStatementId) : null;
   const renderMode = focus || statementFocus || zoom >= STATIC_OVERVIEW_ZOOM ? "detail" : "overview";
   const isOverview = renderMode === "overview";
   const showPortraits = zoom >= 0.28 || Boolean(focus || statementFocus);
@@ -311,7 +317,15 @@ export function TimelineShell({ locale, messages, timeline }: { locale: Locale; 
   }, [zoom, pan.x, pan.y]);
   const renderPeople = useMemo(() => isOverview ? [] : visiblePeople.filter((point) => point.x >= viewportBounds.minX && point.x <= viewportBounds.maxX && point.y >= viewportBounds.minY && point.y <= viewportBounds.maxY), [isOverview, visiblePeople, viewportBounds]);
   const renderStatements = useMemo(() => isOverview ? [] : visibleStatementPoints.filter((point) => point.x >= viewportBounds.minX && point.x <= viewportBounds.maxX && point.y >= viewportBounds.minY && point.y <= viewportBounds.maxY), [isOverview, visibleStatementPoints, viewportBounds]);
+  const renderPersonIds = useMemo(() => new Set(renderPeople.map((person) => person.id)), [renderPeople]);
   const renderStatementIds = useMemo(() => new Set(renderStatements.map((statement) => statement.id)), [renderStatements]);
+  // Pointer leave is not guaranteed when a hovered SVG node is unmounted by
+  // culling, filtering, focus layout, or the detail/overview LOD switch. Never
+  // let such a stale hover fade the entire currently rendered graph.
+  const activeHoverPersonId = !isOverview && hoverPersonId && renderPersonIds.has(hoverPersonId) ? hoverPersonId : null;
+  const activeHoverStatementId = !isOverview && hoverStatementId && renderStatementIds.has(hoverStatementId) ? hoverStatementId : null;
+  const hoveredStatement = activeHoverStatementId ? statementsById.get(activeHoverStatementId) : null;
+  const hasActiveHover = Boolean(activeHoverPersonId || activeHoverStatementId);
   const relationPaths = useMemo(() => visibleRelations.flatMap((relation) => {
     const source = visibleStatementPointMap.get(relation.source);
     const target = visibleStatementPointMap.get(relation.target);
@@ -489,12 +503,22 @@ export function TimelineShell({ locale, messages, timeline }: { locale: Locale; 
   }, [layoutKey, visiblePeopleData, statementCountByPerson, focus, statementFocus]);
 
   function toggle<T extends string>(setter: React.Dispatch<React.SetStateAction<Set<T>>>, id: T) {
+    setHoverPersonId(null);
+    setHoverStatementId(null);
     setter((current) => { const next = new Set(current); if (next.has(id)) next.delete(id); else next.add(id); return next; });
   }
 
-  function resetView() { setView(fitViewForPeople(visiblePeopleData, statementCountByPerson)); }
+  function resetView() {
+    setHoverPersonId(null);
+    setHoverStatementId(null);
+    setView(fitViewForPeople(visiblePeopleData, statementCountByPerson));
+  }
 
   function zoomAround(anchor: { x: number; y: number }, requestedZoom: number) {
+    if (requestedZoom < STATIC_OVERVIEW_ZOOM) {
+      setHoverPersonId(null);
+      setHoverStatementId(null);
+    }
     setView((current) => zoomAt(current, anchor, requestedZoom, CENTER));
   }
 
@@ -529,7 +553,7 @@ export function TimelineShell({ locale, messages, timeline }: { locale: Locale; 
     {statementFocus && <button className="clear-focus-btn clear-statement-focus" onClick={handleClearStatementFocus} aria-label={messages["toolbar.clearStatementFocus"]}><span className="clear-focus-icon">{icon("back")}</span><span>{messages["toolbar.clearStatementFocus"]}</span></button>}
 
     <header className="topbar" data-i18n-scope="timeline-topbar">
-      <div className="search-wrap"><label className="search-control">{icon("search")}<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={messages["topbar.search"]} /></label>
+      <div className="search-wrap"><label className="search-control">{icon("search")}<input value={query} onChange={(event) => { setHoverPersonId(null); setHoverStatementId(null); setQuery(event.target.value); }} placeholder={messages["topbar.search"]} /></label>
         {searchResults.length > 0 && <div className="search-results">{searchResults.map((person) => <button key={person.id} onClick={() => { setFocus(person.id); setStatementFocus(null); setQuery(""); }}><strong>{person.name}</strong><span>{person.dateLabel}</span></button>)}</div>}
       </div>
       <span className="view-pill">{messages["topbar.view"]}</span><Link className="language-pill" href={`/${alternateLocale(locale)}`}>{messages["language.switch"]}</Link><button className="round-button" onClick={() => setShowInfo(true)} aria-label={messages["topbar.info"]}>{icon("info")}</button>
@@ -538,7 +562,7 @@ export function TimelineShell({ locale, messages, timeline }: { locale: Locale; 
     <div className="research-note" data-i18n-scope="brand">{messages["status.research"]}</div>
 
     <section className="canvas-wrap" data-i18n-scope="timeline-canvas" aria-label={messages["topbar.view"]}>
-      <svg ref={canvas} viewBox={`0 0 ${WIDTH} ${HEIGHT}`} role="img" data-render-mode={renderMode} data-zoom={zoom.toFixed(4)} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={() => { drag.current = null; }} onPointerCancel={() => { drag.current = null; }}>
+      <svg ref={canvas} viewBox={`0 0 ${WIDTH} ${HEIGHT}`} role="img" data-render-mode={renderMode} data-zoom={zoom.toFixed(4)} data-hover-active={hasActiveHover ? "true" : "false"} onPointerDown={(event) => { setHoverPersonId(null); setHoverStatementId(null); handlePointerDown(event); }} onPointerMove={handlePointerMove} onPointerUp={() => { drag.current = null; }} onPointerCancel={() => { drag.current = null; setHoverPersonId(null); setHoverStatementId(null); }} onPointerLeave={() => { drag.current = null; setHoverPersonId(null); setHoverStatementId(null); }}>
         <g className="timeline-viewport" transform={transform}>
           {isOverview && <image
             className="overview-static-image"
@@ -550,19 +574,19 @@ export function TimelineShell({ locale, messages, timeline }: { locale: Locale; 
             height={overviewSnapshot.size}
             pointerEvents="none"
           />}
-          <g className={`statement-relations ${isOverview ? "is-overview" : ""} ${hoverPersonId || hoverStatementId ? "has-hover" : ""}`} shapeRendering={isOverview ? "optimizeSpeed" : "auto"}>
+          <g className={`statement-relations ${isOverview ? "is-overview" : ""} ${hasActiveHover ? "has-hover" : ""}`} shapeRendering={isOverview ? "optimizeSpeed" : "auto"}>
           {!isOverview && interactiveRelationPaths.map(({ relation, source, target, d }) => {
-            const relationHovered = hoverPersonId
-              ? source.personId === hoverPersonId || target.personId === hoverPersonId
-              : hoverStatementId
-                ? relation.source === hoverStatementId || relation.target === hoverStatementId
+            const relationHovered = activeHoverPersonId
+              ? source.personId === activeHoverPersonId || target.personId === activeHoverPersonId
+              : activeHoverStatementId
+                ? relation.source === activeHoverStatementId || relation.target === activeHoverStatementId
                 : false;
-            const relationFaded = Boolean(hoverPersonId || hoverStatementId) && !relationHovered;
+            const relationFaded = hasActiveHover && !relationHovered;
             return <path key={relation.id} className={`statement-relation ${relation.kind} ${relationFocus === relation.id ? "selected" : ""} ${relationHovered ? "is-hovered" : ""} ${relationFaded ? "is-faded" : ""}`} data-relation-kind={relation.kind} data-relation-id={relation.id} d={d} fill="none" style={{ strokeWidth: Math.max(1.45, 0.9 / zoom) }} onPointerDown={(event) => event.stopPropagation()} onClick={(event) => { event.stopPropagation(); handleSelectRelation(relation.id); }} />;
           })}</g>
           {renderPeople.map((person) => {
-            const isHoverFaded = hoverPersonId
-              ? hoverPersonId !== person.id
+            const isHoverFaded = activeHoverPersonId
+              ? activeHoverPersonId !== person.id
               : hoveredStatement
                 ? hoveredStatement.personId !== person.id
                 : false;
@@ -575,10 +599,10 @@ export function TimelineShell({ locale, messages, timeline }: { locale: Locale; 
           </g>;
           })}
           {renderStatements.map((point) => { const statement = point;
-            const isHoverFaded = hoverPersonId
-              ? hoverPersonId !== statement.personId
-              : hoverStatementId
-                ? hoverStatementId !== statement.id
+            const isHoverFaded = activeHoverPersonId
+              ? activeHoverPersonId !== statement.personId
+              : activeHoverStatementId
+                ? activeHoverStatementId !== statement.id
                 : false;
             return <g key={statement.id} data-person-id={statement.personId} data-order={point.layoutOrder} data-content-type={statement.contentType} className={`statement-node content-${statement.contentType} ${statementFocus === statement.id ? "focused" : ""} ${isHoverFaded ? "is-faded" : ""}`} transform={`translate(${point.x} ${point.y})`} role="button" tabIndex={0} aria-pressed={statementFocus === statement.id} aria-label={statement.text} onPointerEnter={() => setHoverStatementId(statement.id)} onPointerLeave={() => setHoverStatementId((current) => current === statement.id ? null : current)} onFocus={() => setHoverStatementId(statement.id)} onBlur={() => setHoverStatementId((current) => current === statement.id ? null : current)} onPointerDown={(event) => event.stopPropagation()} onClick={() => handleSelectStatement(statement.id)}>
               {statementFocus === statement.id && <circle className="statement-selection-ring" r="7" />}<CategoryDot domains={statement.domains} radius={isDetailZoom ? 3.3 : 2.15} />
