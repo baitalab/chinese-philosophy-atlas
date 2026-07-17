@@ -2,6 +2,7 @@
 const { chromium } = require("playwright");
 const { mkdir } = require("node:fs/promises");
 const path = require("node:path");
+const baseUrl = (process.env.VERIFY_BASE_URL || "http://localhost:3000").replace(/\/$/, "");
 
 function overlaps(a, b) {
   return a && b && a.x < b.x + b.width && a.x + a.width > b.x && a.y < b.y + b.height && a.y + a.height > b.y;
@@ -15,7 +16,7 @@ function overlaps(a, b) {
   page.on("pageerror", (error) => errors.push(error.message));
   await mkdir(path.join(process.cwd(), "artifacts"), { recursive: true });
 
-  await page.goto("http://localhost:3000/zh-CN", { waitUntil: "domcontentloaded" });
+  await page.goto(`${baseUrl}/zh-CN/`, { waitUntil: "domcontentloaded" });
   await page.locator(".filter-tool").waitFor();
   await page.waitForTimeout(300);
   const initialMode = await page.locator(".canvas-wrap svg").getAttribute("data-render-mode");
@@ -168,7 +169,7 @@ function overlaps(a, b) {
   await page.screenshot({ path: path.join(process.cwd(), "artifacts", "ui-request-desktop.png") });
 
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto("http://localhost:3000/zh-CN", { waitUntil: "domcontentloaded" });
+  await page.goto(`${baseUrl}/zh-CN/`, { waitUntil: "domcontentloaded" });
   await page.locator(".filter-tool").waitFor();
   await page.waitForTimeout(700);
   const mobileClosedInitially = await page.locator(".filter-panel").count() === 0;
@@ -184,7 +185,7 @@ function overlaps(a, b) {
   };
   await page.screenshot({ path: path.join(process.cwd(), "artifacts", "ui-request-mobile-filter.png") });
   await page.locator(".filter-close").click();
-  await page.goto("http://localhost:3000/zh-CN?person=confucius", { waitUntil: "domcontentloaded" });
+  await page.goto(`${baseUrl}/zh-CN/?person=confucius`, { waitUntil: "domcontentloaded" });
   await page.waitForTimeout(900);
   mobile.returnVisible = await page.locator(".clear-person-focus").isVisible();
   const mobileFocusedDot = await page.locator('.person-node[aria-pressed="true"] .person-dot').boundingBox();
