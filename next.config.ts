@@ -1,9 +1,16 @@
 import type { NextConfig } from "next";
 
+const isGitHubPages = process.env.GITHUB_PAGES === "true";
+const repositoryBasePath = "/chinese-philosophy-atlas";
+
 const nextConfig: NextConfig = {
-  output: "standalone",
+  output: isGitHubPages ? "export" : "standalone",
+  basePath: isGitHubPages ? repositoryBasePath : "",
+  assetPrefix: isGitHubPages ? repositoryBasePath : "",
+  trailingSlash: isGitHubPages,
+  images: { unoptimized: isGitHubPages },
   poweredByHeader: false,
-  async headers() {
+  ...(isGitHubPages ? {} : { async headers() {
     return [
       {
         source: "/:path*",
@@ -14,7 +21,7 @@ const nextConfig: NextConfig = {
         ],
       },
     ];
-  },
+  } }),
 };
 
 export default nextConfig;

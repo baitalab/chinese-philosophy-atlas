@@ -1,6 +1,8 @@
 import corpus from "./generated/corpus.json";
 import type { Locale } from "@/i18n/config";
 
+const publicBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export type RelationKind = "positive" | "negative";
 export type ContentType = "position";
 
@@ -142,7 +144,7 @@ export function getResearchTimeline(locale: Locale) {
     reviewStatus: person.reviewStatus,
     portrait: {
       kind: person.portrait.kind,
-      path: person.portrait.path,
+      path: `${publicBasePath}${person.portrait.path}`,
       sourceUrl: person.portrait.sourceUrl,
       author: person.portrait.author,
       license: person.portrait.license,
