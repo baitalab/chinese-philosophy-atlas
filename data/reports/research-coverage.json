@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-07-17T13:17:45.911Z",
+  "people": 170,
+  "portraitCoverage": 170,
+  "sourcedPortraits": 39,
+  "discoveredPersonCandidates": 222,
+  "newPersonCandidates": 173,
+  "peopleInResearchRegistry": 170,
+  "peopleWithIdentifiedSources": 170,
+  "personSourceLinks": 830,
+  "sourceExcerpts": 709,
+  "works": 6,
+  "coverageRows": 821,
+  "canonicalClaims": 241,
+  "publishedClaims": 241,
+  "peopleWithPublishedClaims": 170,
+  "publishedRelations": 529,
+  "exclusions": 0,
+  "reviewEvents": 705,
+  "releases": 1,
+  "pendingByGate": {
+    "expand-system-coverage": 21,
+    "extract-source-passages": 112,
+    "identify-primary-text": 37
+  }
+}

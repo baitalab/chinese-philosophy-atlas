@@ -1,0 +1,23 @@
+{
+  "auditedAt": "2026-07-17",
+  "relationsAudited": 529,
+  "historicalInfluenceDowngrades": [],
+  "duplicateEvidenceRowsRemoved": 0,
+  "remainingExplicitCrossPersonRelations": [
+    "modern-density-fang-tang-teacher-huayan",
+    "modern-density-zhangtaiyan-kang-revolution-refutation",
+    "modern-rel-hu-zhang-science-life-debate",
+    "modern-rel-liangqichao-zhangjunmai-science-limits",
+    "modern-rel-liangshuming-zhangjunmai-debate-camp",
+    "modern-rel-xiong-mou-internal-moral-knowing",
+    "modern-rel-xiong-xu-embodied-recognition",
+    "modern-rel-zhangdongsun-zhangjunmai-debate-camp",
+    "rel-confucius-hanyu-succession",
+    "rel-huangbo-linji-teacher-disciple",
+    "rel-mencius-hanyu-succession",
+    "rel-wangchong-ghosts-vs-heaven-warnings",
+    "rel-xiangxiu-jikang-desire-debate",
+    "rel-xuanzang-kuiji-consciousness-only"
+  ],
+  "method": "Cross-person explicit influence requires a located excerpt or direct transmission evidence; otherwise the visible edge remains conceptual-only."
+}

@@ -1,0 +1,30 @@
+{
+  "version": "statement-focus-2026-07-14",
+  "people": 170,
+  "byPeriod": {
+    "ancient-preqin": 34,
+    "qin-han": 11,
+    "wei-jin-tang": 34,
+    "song-yuan-ming-qing": 45,
+    "late-qing-republic": 22,
+    "contemporary-china": 24
+  },
+  "byHistoricity": {
+    "legendary": 6,
+    "traditional": 6,
+    "attested": 152,
+    "textual-persona": 6
+  },
+  "sourceReviewed": 86,
+  "screened": 84,
+  "contentNodes": 241,
+  "positionStatements": 241,
+  "peopleWithContent": 170,
+  "peopleWithPositions": 170,
+  "unsourcedContent": 0,
+  "relations": 529,
+  "positiveRelations": 410,
+  "negativeRelations": 119,
+  "sourcedPortraits": 39,
+  "portraitCoverage": 170
+}

@@ -1,0 +1,46 @@
+{
+  "name": "atlas-chinese-philosophy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "research:bootstrap": "node scripts/research-pipeline.mjs bootstrap",
+    "research:sync": "node scripts/research-pipeline.mjs sync",
+    "research:validate": "node scripts/research-pipeline.mjs validate",
+    "research:publish": "node scripts/research-pipeline.mjs publish",
+    "research:report": "node scripts/research-pipeline.mjs report",
+    "research:import-batches": "node scripts/import-research-batches.mjs",
+    "data:research-queue": "node scripts/research-pipeline.mjs sync && node scripts/research-pipeline.mjs report",
+    "data:build": "node scripts/build-data.mjs",
+    "data:check": "node scripts/build-data.mjs",
+    "data:benchmark": "node scripts/benchmark-timeline.mjs",
+    "data:portraits": "pwsh -NoProfile -File scripts/collect-portraits.ps1",
+    "data:person-candidates": "pwsh -NoProfile -File scripts/collect-person-candidates.ps1",
+    "data:audit-relations": "node scripts/audit-and-correct-relations.mjs",
+    "data:relation-report": "node scripts/report-relation-coverage.mjs",
+    "predev": "npm run data:build",
+    "dev": "next dev",
+    "prebuild": "npm run data:build",
+    "build": "next build",
+    "start": "node .next/standalone/server.js",
+    "lint": "eslint .",
+    "typecheck": "next typegen && tsc --noEmit",
+    "i18n:check": "node scripts/check-i18n.mjs",
+    "check": "npm run research:validate && npm run data:check && npm run i18n:check && npm run lint && npm run typecheck && npm run build"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "csv-parse": "^7.0.1",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

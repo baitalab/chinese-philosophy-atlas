@@ -1,0 +1,11 @@
+{
+  "metadata": ["meta.title", "meta.description"],
+  "brand": ["brand.title", "brand.subtitle", "brand.version", "status.research"],
+  "timeline-toolbar": ["toolbar.zoomIn", "toolbar.zoomOut", "toolbar.fit", "toolbar.theme", "toolbar.legend", "toolbar.clearPersonFocus", "toolbar.clearStatementFocus", "toolbar.showFurther"],
+  "timeline-topbar": ["topbar.search", "topbar.view", "topbar.info", "language.switch"],
+  "timeline-filters": ["filters.title", "filters.close", "filters.connections", "filters.agreement", "filters.disagreement", "filters.basics", "filters.domains", "filters.periods", "filters.traditions", "filters.clear", "filters.more", "filters.less", "filters.noResults"],
+  "timeline-canvas": ["timeline.start", "timeline.end", "timeline.focusHint", "timeline.peopleShown", "timeline.statementsShown", "timeline.relationsShown", "timeline.statementDegree", "timeline.relationsPending"],
+  "timeline-legend": ["legend.title", "legend.person", "legend.statement", "legend.agreement", "legend.disagreement", "legend.structuralNote"],
+  "research-info": ["info.title", "info.body", "info.inclusion", "info.quote", "info.disclaimer", "info.close"],
+  "timeline-detail": ["detail.close", "detail.person", "detail.statement", "detail.relation", "detail.by", "detail.activeYear", "detail.period", "detail.traditions", "detail.domains", "detail.tags", "detail.sources", "detail.evidence", "detail.explanation", "detail.text", "detail.relationType", "detail.subtype", "detail.basis", "detail.direction", "detail.historicalInfluence", "detail.fromStatement", "detail.toStatement", "detail.relatedStatements", "detail.personStatements", "detail.viewPerson", "detail.viewStatement", "detail.sourceRole", "detail.locator", "detail.historicity", "detail.aliases", "detail.datingPrecision", "detail.importance", "detail.reviewStatus", "detail.introductory", "detail.conceptualOnly", "detail.probableInfluence", "detail.explicitInfluence", "detail.undirected", "detail.directed"]
+}

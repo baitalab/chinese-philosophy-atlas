@@ -1,0 +1,244 @@
+statement_id,source_id,locator,evidence_role
+fuxi-textual-image-patterns-to-trigrams,src-zhouyi-xicixia-ctext,《周易·系辞下》第二章，包牺氏作八卦段,primary
+shennong-textual-image-empirical-benefit,src-huainanzi-xiuwu-ctext,《淮南子·修务训》神农教民播种、尝百草段,primary
+huangdi-medical-tradition-regulated-life,src-huangdi-neijing-shanggutianzhen-ctext,《黄帝内经素问·上古天真论》第一节，黄帝问、岐伯答段,primary
+yao-textual-image-virtue-expands-to-all-under-heaven,src-shangshu-yushu-ctext,《尚书·虞书·尧典》开篇“克明俊德”段,primary
+shun-textual-image-balanced-character-music-education,src-shangshu-yushu-ctext,《尚书·虞书·舜典》第十六节，命夔典乐段,primary
+yu-textual-image-good-government-nourishes-people,src-shangshu-yushu-ctext,《尚书·虞书·大禹谟》第六节，禹曰“德惟善政”段,primary
+king-wen-textual-tradition-qian-constancy,src-zhouyi-qian-ctext,《周易》经文，乾卦卦辞,primary
+duke-zhou-textual-image-bright-virtue-cautious-punishment,src-shangshu-zhoushu-ctext,《尚书·周书·康诰》“惟乃丕显考文王”段,primary
+guan-zhong-material-security-moral-order,src-guanzi-mumin-ctext,《管子·牧民》第一节,primary
+laozi-language-dao,ctext-laozi,Dao De Jing 1 / 《道德经》第一章,primary
+laozi-wuwei-transformation,ctext-laozi,Dao De Jing 37 / 《道德经》第三十七章,primary
+laozi-model-naturalness,ctext-laozi,Dao De Jing 25 / 《道德经》第二十五章,primary
+laozi-reversal-dao,ctext-laozi,Dao De Jing 40 / 《道德经》第四十章,primary
+laozi-softness-overcomes,ctext-laozi,Dao De Jing 43 / 《道德经》第四十三章,primary
+laozi-contentment,ctext-laozi,Dao De Jing 44 / 《道德经》第四十四章,primary
+yan-ying-harmony-not-sameness,src-yanzichunqiu-he-wikisource,卷七“景公谓梁丘据与己和晏子谏”第五,primary
+confucius-ren-ritual,ctext-analects,Analects 12.1 / 《论语·颜渊》,primary
+confucius-reciprocity,ctext-analects,Analects 15.24 / 《论语·卫灵公》,primary
+confucius-rule-virtue,ctext-analects,Analects 2.1 / 《论语·为政》,primary
+confucius-rectification-names,ctext-analects,Analects 13.3 / 《论语·子路》,primary
+confucius-superior-person,ctext-analects,Analects 4.16 / 《论语·里仁》,primary
+confucius-harmony-difference,ctext-analects,Analects 13.23 / 《论语·子路》,primary
+sunzi-victory-before-battle,src-sunzi-junxing-ctext,《孙子兵法·军形》第四篇，胜兵先胜段,primary
+yan-hui-learning-culture-ritual,src-analects-zihan-ctext,《论语·子罕》9.11，颜渊喟然叹章,primary
+zengzi-confucian-way-zhong-shu,src-analects-liren-ctext,《论语·里仁》4.15,primary
+mozi-inclusive-care,ctext-mozi,Mozi: Universal Love II / 《墨子·兼爱中》,primary
+mozi-care-order,ctext-mozi,Mozi: Universal Love I / 《墨子·兼爱上》,primary
+mozi-merit-office,ctext-mozi,Mozi: Exaltation of the Virtuous / 《墨子·尚贤》,primary
+mozi-condemn-offensive-war,ctext-mozi,Mozi: Condemnation of Offensive War / 《墨子·非攻》,primary
+mozi-will-heaven,ctext-mozi,Mozi: Will of Heaven / 《墨子·天志》,primary
+mozi-frugality,ctext-mozi,Mozi: Frugality / 《墨子·节用》,primary
+zisi-sincerity-heaven-human-way,src-liji-zhongyong-ctext,《礼记·中庸》第二十章，论诚段,primary
+liezi-ceaseless-generation-transformation,src-liezi-tianrui-ctext,《列子·天瑞》“生者不能不生”段,primary
+yang-zhu-for-self-no-hair-for-world,src-mengzi-jinxin-i-yangzhu-ctext,《孟子·尽心上》第二十六章,primary
+shang-yang-law-trust-authority,src-shangjunshu-xiuquan-ctext,《群书治要》卷三十六《商君子·修权》开篇,primary
+shen-buhai-technique-name-performance,src-hanfeizi-dingfa-ctext,《韩非子·定法》，比较申不害之术与商鞅之法段,primary
+sun-bin-war-neither-delight-nor-profit,src-sunbin-jianweiwang-ctext,银雀山汉简《孙膑兵法·见威王》开篇,primary
+mencius-moral-sprouts,ctext-mengzi,Mengzi 2A.6 / 《孟子·公孙丑上》,primary
+mencius-nature-good,ctext-mengzi,Mengzi 6A.2 / 《孟子·告子上》,primary
+mencius-people-priority,ctext-mengzi,Mengzi 7B.14 / 《孟子·尽心下》,primary
+mencius-kingly-way,ctext-mengzi,Mengzi 1A / 《孟子·梁惠王上》,primary
+mencius-rightness-profit,ctext-mengzi,Mengzi 1A.1 / 《孟子·梁惠王上》,primary
+mencius-flood-like-qi,ctext-mengzi,Mengzi 2A.2 / 《孟子·公孙丑上》,primary
+hui-shi-great-one-small-one,src-zhuangzi-tianxia-ctext,《庄子·天下》“惠施多方”后所列历物十事第一条,primary
+zhuangzi-perspectives,ctext-zhuangzi,Zhuangzi 2 / 《庄子·齐物论》,primary
+zhuangzi-no-fixed-self,ctext-zhuangzi,Zhuangzi 1 / 《庄子·逍遥游》,primary
+zhuangzi-ten-thousand-one,ctext-zhuangzi,Zhuangzi 2 / 《庄子·齐物论》,primary
+zhuangzi-free-easy-wandering,ctext-zhuangzi,Zhuangzi 1 / 《庄子·逍遥游》,primary
+zhuangzi-skill-cultivation,ctext-zhuangzi,Zhuangzi 3 / 《庄子·养生主》,primary
+zhuangzi-life-death,ctext-zhuangzi,Zhuangzi 2 / 《庄子·齐物论》,primary
+gaozi-life-is-nature,src-mengzi-gaozi-i-ctext,《孟子·告子上》第一章,primary
+xu-xing-ruler-shares-labor,src-mengzi-tengwengong-i-ctext,《孟子·滕文公上》第四章，陈相转述许行之言,primary
+shen-dao-follow-necessity,src-zhuangzi-tianxia-ctext,《庄子·天下》慎到、彭蒙、田骈论述段,primary
+zou-yan-five-virtues-historical-succession,src-shiji-mengzi-xunqing-ctext,《史记·孟子荀卿列传》邹衍传，述五德转移段,primary
+gongsun-long-white-horse-not-horse,src-gongsunlongzi-baimajun-ctext,《公孙龙子·白马论》开篇及“求马”“求白马”论证段,primary
+xunzi-nature-transformation,ctext-xunzi,Xunzi 23 / 《荀子·性恶》,primary
+xunzi-ritual-order,ctext-xunzi,Xunzi 19 / 《荀子·礼论》,primary
+xunzi-heaven-constant,ctext-xunzi,Xunzi 17 / 《荀子·天论》,primary
+xunzi-encouragement-learning,ctext-xunzi,Xunzi 1 / 《荀子·劝学》,primary
+xunzi-rectification-names,ctext-xunzi,Xunzi 22 / 《荀子·正名》,primary
+xunzi-rightness-profit,ctext-xunzi,Xunzi 2 / 《荀子·荣辱》,primary
+han-fei-two-handles,src-hanfeizi-erbing-ctext,《韩非子·二柄》开篇,primary
+lu-buwei-law-must-change-with-times,src-lvshi-chunqiu-chajin-ctext,《吕氏春秋·慎大览·察今》“世易时移”段,primary
+li-si-state-strength-through-inclusion,src-jianzhukeshu-ctext,《谏逐客书》第四、第五段,primary
+dong-zhongshu-heaven-warns-ruler,src-hanshu-dongzhongshu-ctext,《汉书·董仲舒传》所录天人三策第三策，论灾异谴告段,primary
+liu-an-dao-encompasses-cosmos,src-huainanzi-yuandao-ctext,《淮南子·原道训》开篇,primary
+liu-an-qi-differentiates-cosmos,src-huainanzi-tianwen-ctext,《淮南子·天文训》开篇,primary
+dong-zhongshu-five-phases-governance,src-chunqiu-fanlu-wuxing,《春秋繁露·五行相生》第五十八,primary
+sima-tan-six-schools-shared-governance,src-shiji-taishigongzixu-ctext,《史记·太史公自序》所录《论六家要旨》开篇,primary
+sima-qian-death-value-by-purpose,src-hanshu-simaqian-ctext,《汉书·司马迁传》所录《报任安书》“人固有一死”段,primary
+yang-xiong-nature-mixed-cultivation,src-yangzi-fayan-xiushen-ctext,《扬子法言·修身卷第三》“人之性也善恶混”章,primary
+huan-tan-spirit-dependent-on-body,src-hongmingji-xinlun-xingshen-ctext,《弘明集》卷五《新论形神》，火烛譬喻段,primary
+wang-chong-spontaneous-generation,src-lunheng-ziran-ctext,《论衡·自然》“天地合气”段,primary
+wang-chong-dead-lack-awareness,src-lunheng-lunshi-ctext,《论衡·论死》开篇及人死不为鬼段,primary
+ban-zhao-educate-women,src-banzhao-nvjie,〈夫婦第二〉末段,primary
+wang-fu-people-ground-state,src-wangfu-qianfulun,卷五〈愛日第十八〉开篇,primary
+zheng-xuan-ritual-constitutes-person,src-zhengxuan-liji-liji,《禮記鄭氏注》卷十〈禮器第十〉，“禮也者猶體也”章郑注,primary
+zhongchang-tong-human-affairs-primary,src-changyan-zhong-zhongchangtong,《昌言》卷中论三代帝王功业段,primary
+he-yan-nonbeing-ground-of-being,src-heyan-daolun-liezi-zhu-ctext,《列子》卷一〈天瑞〉张湛注引何晏《道论》,primary
+wang-bi-being-rooted-in-nonbeing,src-wangbi-daodejing-zhu-ctext,《道德真經註》第四十章“反者道之動”章注,primary
+wang-bi-forget-words-grasp-meaning,src-wangbi-zhouyi-lueli,《周易略例·明象》开篇,primary
+ji-kang-sound-without-emotion,src-jikang-shengwuailelun-ctext,《嵇中散集》卷五〈聲無哀樂論〉，东野主人答秦客“声音有自然之和”段,primary
+ji-kang-nourishing-life-unifies-body-spirit,src-jikang-yangshenglun,《养生论》形神相亲、导养得理段,primary
+ruan-ji-great-person-beyond-ritual,src-ruanji-daren,《大人先生傳》开篇及答君子书段,primary
+xiang-xiu-desire-natural-but-ritually-regulated,src-xiangxiu-nanyangsheng,〈難嵇叔夜養生論〉中段“生之為樂”段,primary
+lu-sheng-names-distinguish-and-govern,src-lusheng-mobian-xu,《鲁胜墨辩注叙》开篇,primary
+pei-wei-being-self-generates,src-peiwei-chongyoulun,《晉書》卷三十五〈裴頠傳〉引〈崇有論〉“至无者无以能生”段,primary
+guo-xiang-things-self-generate,src-guoxiang-zhuangzi-jishi-ctext,《莊子集釋》卷一下〈齊物論〉“怒者其誰邪”句郭象注,primary
+guo-xiang-independence-through-dependence,src-guoxiang-zhuangzi-xiaoyaoyou,郭象《庄子注·逍遥游》大鹏与小鸟比较段,primary
+ge-hong-immortality-learnable,src-gehong-baopuzi-neipian,《抱朴子內篇》卷二〈論仙〉、卷三〈對俗〉辨“仙人有種”段,primary
+ge-hong-virtue-precedes-immortality,src-gehong-baopuzi-neipian,《抱朴子内篇·对俗》论求仙者积善段,primary
+zhi-dun-freedom-not-mere-satisfaction,src-zhidun-xiaoyaolun-fragment,《世說新語·文學》第32则刘孝标注引支氏〈逍遙論〉佚文,primary
+huiyuan-monastic-autonomy,src-huiyuan-shamen,"T52, no. 2102, 卷5〈沙門不敬王者論·出家第二〉",primary
+sengzhao-emptiness-not-annihilation,src-sengzhao-zhaolun-cbeta,"T45, no. 1858, p. 152a-b，〈不真空論〉“万物果有其所以不有”段",primary
+sengzhao-motion-and-stillness-nondual,src-sengzhao-wubuqian-cbeta,T45 no.1858《物不迁论》开篇,primary
+daosheng-all-beings-can-become-buddhas,src-daosheng-fahuajingshu-cbeta,"X27, no. 577, 卷1，〈見寶塔品第十一〉（CBETA PDF 印本第26页）",primary
+fan-zhen-mind-function-of-body,src-fanzhen-shenmie,《梁書》卷四十八〈儒林·范縝傳〉所载〈神滅論〉开篇问答,primary
+bodhidharma-two-entrances-practice,src-bodhidharma-two-entrances-critical-study,PDF第141页，《二入四行论》本文开篇“夫入道多途”至“四行”目录,secondary
+zhiyi-three-thousand-in-one-thought,src-zhiyi-mohezhiguan-cbeta,"T46, no. 1911, p. 54a5-10，卷5〈正修止觀·觀不思議境〉",primary
+jizang-two-truths-pedagogical,src-jizang-erdi,"T45, no. 1854, 卷1〈釋名第一〉开篇",primary
+wang-tong-learning-serves-governance,src-zhongshuo-wangtong-one,《中说》卷一开篇记《政小论》段,primary
+du-shun-emptiness-form-nonobstruction,src-dushun-fajieguan-attributed,"T45, no. 1883, p. 672a-b，〈真空觀第一·會色歸空觀〉",primary
+lv-cai-test-divination-against-classics,src-jiutangshu-lvcai,《旧唐书》卷七十九《吕才传》录《叙宅经》奏议,primary
+xuanzang-color-not-apart-consciousness,src-xuanzang-zhenweishiliang,"T44, no. 1840, 卷上，疏释“真故极成色”量式段",primary
+kuiji-consciousness-only-not-nihilism,src-kuiji-chengweishi-shuji,"T43, no. 1830, 卷1，p. 229a-b，序释“唯识”名义段",primary
+fazang-dependent-arising-golden-lion,src-fazang-jinshizizhang-cbeta,"T45, no. 1881, 卷1，〈明緣起第一〉、〈辨色空第二〉",primary
+fazang-one-is-all-nonobstruction,src-fazang-huayan-yicheng,T45 no.1866卷四，十玄缘起无碍法门段,primary
+huineng-intrinsically-pure-self-nature,src-huineng-tanjing-cbeta,"T48, no. 2008, 卷1〈行由第一〉，p. 349a（开示“菩提自性”段）",primary
+shenxiu-concentrate-mind-quiet-thought,src-shenxiu-datongbei,《唐文粹》卷六十三〈荊州玉泉寺大通禪師碑銘並序〉“开法大略”段,primary
+shenhui-no-thought-and-nonaction,src-shenhui-xianzongji,《景德傳燈錄》卷三十所收〈顯宗記〉开篇,primary
+mazu-mind-is-buddha,src-mazu-jingde,"T51, no. 2076, 卷6〈江西道一禪師〉“各信自心是佛”段",primary
+han-yu-ren-yi-dao-de,src-hanyu-yuandao,〈原道〉开篇定义段,primary
+han-yu-confucian-succession,src-hanyu-yuandao,《原道》中段，道之传承谱系,primary
+li-ao-nature-obscured-by-emotions,src-liao-fuxingshu,《復性書》上篇开篇问答,primary
+liu-zongyuan-enfeoffment-product-of-circumstance,src-liuzongyuan-fengjianlun,〈封建論〉首段“有里胥而后有县大夫”历史生成论证结句,primary
+liu-zongyuan-heaven-human-separate-functions,src-liuzongyuan-tianshuo,《天说》论天与人各行其功祸段,primary
+zongmi-sudden-awakening-gradual-cultivation,src-zongmi-chanyuanxuqian-cbeta,"T48, no. 2015, p. 399b-c，卷1“若頓悟自心本來清淨”段",primary
+zongmi-originally-aware-true-mind,src-zongmi-yuanrenlun-cbeta,T45 no.1886《原人论》会通本末段,primary
+huangbo-one-mind-no-external-buddha,src-huangbo-chuanxin-t48,"T48, no. 2012A, p.379c，正文首段",primary
+linji-master-of-every-situation,src-linji-lu-t47,"T47, no. 1985, p.498a，“示众”中“随处作主”段",primary
+wunengzi-humans-continuous-with-animals,src-wunengzi-shengguo,《无能子·圣过》开篇论人与虫类段,primary
+zhou-dunyi-sincerity-root-practice,zhou-dunyi-tongshu-cheng,〈诚上第一〉、〈诚下第二〉,primary
+zhang-zai-cosmic-kinship,zhang-zai-ximing,《西铭》开篇至中段,primary
+shao-yong-cosmos-correlative-pairs,shao-yong-huangji-11,《皇极经世》卷十一〈观物篇五十一〉首段至第三段,primary
+zhou-dunyi-taiji-yinyang-generation,zhou-dunyi-taijitu-shuo,《太极图说》开篇至“五气顺布，四时行焉”,primary
+cheng-yi-nature-is-principle,cheng-yi-yishu-xingli,《河南程氏遗书》卷二十二上,primary
+zhang-zai-great-void-qi,zhang-zai-zhengmeng-taihe,《正蒙》卷一〈太和篇第一〉第二节,primary
+cheng-hao-ren-one-body,cheng-hao-shiren,《河南程氏遗书》卷二上〈识仁篇〉开篇,primary
+su-shi-knowledge-requires-practice,su-shi-riyu,《东坡全集》卷四十九〈日喻〉末段,primary
+cheng-yi-reverence-investigation,cheng-yi-yishu-18,《河南程氏遗书》卷十八，论涵养与进学条,primary
+hu-hong-nature-beyond-good-evil,hu-hong-zhiyan,《知言》卷四〈知言疑义〉论性条,primary
+zhu-xi-investigate-things-cumulative,zhu-xi-daxue-gewu,《大学章句》格物致知补传,primary
+lu-jiuyuan-remove-obscurations-original-mind,lu-jiuyuan-yulu-benxin,《象山先生全集》卷三十五〈语录〉,primary
+zhang-shi-righteousness-without-profit-motive,zhang-shi-yili,朱熹《晦庵先生朱文公文集》卷八十九〈右文殿修撰张公神道碑〉引张栻常言,primary
+lu-jiuyuan-mind-universe,lu-jiuyuan-zashuo-22,《陆九渊集》卷三十六〈年谱〉，少年读“宇宙”二字条,primary
+lu-jiuyuan-mind-universe,lu-jiuyuan-nianpu-36,《陆九渊集》卷三十六〈年谱〉，少年读“宇宙”二字条,primary
+lv-zuqian-historical-situated-understanding,lv-zuqian-lize,《丽泽论说集录》卷三，论读史法条,primary
+zhu-xi-ren-generative-heart,zhu-xi-renshuo,《晦庵先生朱文公文集》卷六十七〈仁说〉首段,primary
+chen-liang-dao-within-things-affairs,chen-liang-jingshu-fati,《龙川文集》卷九〈经书发题〉论道器段,primary
+ye-shi-one-realized-through-pairs,ye-shi-zhongyong,《水心先生别集》卷七〈进卷·中庸〉首段,primary
+xu-heng-reverence-and-investigation,xu-heng-luzhai-yishu,《鲁斋遗书》卷一〈语录〉论为学之方条,primary
+wang-yinglin-learning-requires-broad-evidence,wang-yinglin-kunxue,《困学纪闻》卷八〈经说〉“多闻阙疑”条,primary
+wu-cheng-dao-within-mind,wu-cheng-benxinlouji,《吴文正集》卷二十六〈仙城本心楼记〉中段,primary
+wu-yubi-learning-in-minute-affairs,wu-yubi-rilu,《康斋日录》娄谅从学条,primary
+chen-xianzhang-stillness-moral-intimation,chen-xianzhang-mingshi,《明史》卷二百八十三〈陈献章传〉论其教学法段,primary
+wang-yangming-liangzhi-present-knowing,wang-yangming-chuanxilu-liangzhi,《传习录》中，答欧阳崇一,primary
+luo-qinshun-principle-is-qi-pattern,src-luoqinshun-kunzhiji-xulu,《困知记续录》第三十八条,primary
+wang-gen-self-respect-foundation-governance,wang-gen-yulu-anshen,《王心斋先生全集》卷三〈语录〉安身章,primary
+wang-yangming-unity-knowledge-action,wang-yangming-chuanxilu-xuai,《传习录》上〈徐爱录〉，答徐爱知行先后之问,primary
+wang-tingxiang-primordial-qi-is-ultimate,src-wangtingxiang-shenyan-mingruxuean,《明儒学案》所录王廷相《阴阳管见辨》答论元气段,secondary
+zhan-ruoshui-recognize-principle-everywhere,zhan-ruoshui-ganquan,《甘泉先生文集》卷七〈答阳明王都宪论格物〉,primary
+wang-gen-way-in-common-daily-life,wang-gen-xinzhai,《王心斋先生全集》卷三〈语录〉论百姓日用条,primary
+qian-dehong-no-good-evil-and-cultivation,qian-dehong-xuwang,钱德洪〈刻文录叙说〉记天泉证道及后续解释段,primary
+wang-ji-four-nothings,wang-ji-tianquanzhengdao,《龙溪王先生全集》卷一〈天泉证道纪〉王畿所陈本心之学段,primary
+li-zhi-daily-needs-human-relations,li-zhi-dafen-shu-dayong,《焚书》卷一〈答邓石阳〉,primary
+luo-rufang-filial-affection-original-mind,luo-rufang-xutan,《盱坛直诠》上卷，论赤子良心条,primary
+li-zhi-childlike-mind-authenticity,li-zhi-tongxinshuo,《焚书》卷三〈童心说〉开篇,primary
+lv-kun-form-and-qi-generate-world,src-lvkun-shenyinyu-tiandi,《呻吟语·天地》“形气”条,primary
+gao-panlong-embodied-way-unifies-knowing-doing,src-gaopanlong-gaozi-yishu,《高子遗书》卷首陈龙正序引高子学旨段,primary
+gu-xiancheng-moral-practice-and-public-duty,src-guxiancheng-donglin-liezhuan,《东林列传》卷二《顾宪成传》论学段,primary
+liu-zongzhou-vigilance-in-solitude,liu-zongzhou-renpu,《人谱》〈人极图说〉及〈证人要旨〉慎独条,primary
+wang-daiyu-true-one-transcends-form,wang-daiyu-zhengjiao,《正教真诠》上卷〈真一〉首段,primary
+fang-yizhi-empirical-investigation-of-things,src-fangyizhi-wulixiaoshi-preface,《物理小识·自序》开篇界定质测段,primary
+gu-yanwu-classics-ground-principle-learning,gu-yanwu-yu-qiushu,《亭林文集》卷三〈与友人论学书〉,primary
+huang-zongxi-law-public-not-dynastic,huang-zongxi-yuanfa,《明夷待访录·原法》首段,primary
+wang-fuzhi-constant-principle-daily-renewal,wang-fuzhi-shangshu-yinyi,《尚书引义》卷三〈太甲二〉,primary
+wang-fuzhi-dao-in-concrete-things,wang-fuzhi-zhouyi-waizhuan-5,《周易外传》卷五，释《系辞上传》第十二章，第二节（中国哲学书电子化计划行174—176）,primary
+huang-zongxi-world-primary-ruler-guest,huang-zongxi-yuanjun,《明夷待访录·原君》第三段,primary
+gu-yanwu-everyone-responsible-for-tianxia,gu-yanwu-zhengshi,《日知录》卷十三〈正始〉末段,primary
+yan-yuan-learning-through-active-practice,yan-yuan-cunxue-bian,《存学编》卷一总论,primary
+yan-yuan-learning-through-active-practice,yan-yuan-cunxue-bian,《存学编》〈性理评〉首段,primary
+ma-zhu-divine-unity-obedience,ma-zhu-qingzhen,《清真指南》卷一〈认主〉开篇,primary
+yan-yuan-knowledge-through-practice,yan-yuan-xizhai,《习斋记余》卷三〈答齐笃公秀才书〉,primary
+tang-zhen-emperors-as-predatory-power,src-tangzhen-qianshu-shiyu,《潜书·室语》开篇,primary
+li-gong-learning-is-enactment,li-gong-shugu,《恕谷后集》卷二〈答门人问学〉,primary
+liu-zhi-real-one-and-numerical-one,liu-zhi-tianfang,《天方性理》本经第一章“真一流出数一”图说,primary
+dai-zhen-blood-qi-and-mind-one-root,dai-zhen-mengzi-ziyi-yu,《孟子字义疏证》卷上，论血气心知一本,primary
+zhang-xuecheng-way-never-separate-instruments,zhang-xuecheng-yuan-dao,《文史通义·原道中》开篇,primary
+dai-zhen-li-fulfillment-feeling,dai-zhen-mengzi-ziyi-li,《孟子字义疏证》卷上〈理〉首节,primary
+zhang-xuecheng-six-classics-are-history,zhang-xuecheng-yijiao,《文史通义》内篇一〈易教上〉开篇,primary
+gong-zizhen-institutions-change-talent-judgment,src-gong-shangdaxueshishu-wikisource,《龚自珍集》卷五《上大学士书》开篇,primary
+jiao-xun-nature-capacity-through-practice,jiao-xun-mengzi-zhengyi,《孟子正义》卷二十六，释“人皆有不忍人之心”及“能”字段,primary
+ruan-yuan-ren-between-persons,ruan-yuan-lunren,《揅经室集》一集卷八〈论语论仁论〉首段及结论段,primary
+wei-yuan-learn-foreign-techniques-for-strategic-agency,src-wei-haiguotuzhi-yuanxu-wikisource,《海国图志·原叙》首段，说明著书三旨处,primary
+feng-guifen-chinese-ethics-western-techniques,src-fengguifen-xiaobinlu,《校邠庐抗议·采西学议》结论段；中国作家网核录引文,secondary
+tan-sitong-ren-as-communication,wikisource-renxue,《仁学·仁学界说二十七界说》第1、7条,primary
+yan-fu-national-strength-people-capacity-intelligence-virtue,src-yan-yuanqiang-wikisource,《原强》末段，“今日要政，统于三端”处,primary
+kang-youwei-great-unity-abolish-national-boundaries,src-kang-datongshu-yibu-wikisource,《大同书·乙部》“去国界合大地”条，第四项,primary
+liang-qichao-renew-the-people,wikisource-xinminshuo,《新民说》第二节‘论新民为今日中国第一急务’,primary
+yan-fu-free-speech-civil-society,iep-modern-chinese-expansion,"section 4.a ‘Yan Fu and Western Learning’, paragraph 2",secondary
+sun-yat-sen-popular-sovereignty,sunyatsen-sanmin-primary,《三民主义》‘民权主义’开篇,primary
+zhang-taiyan-revolution-produces-public-reason-and-removes-custom,src-zhangtaiyan-bokang-wikisource,《驳康有为论革命书》中段，回应“公理未明、旧俗俱在”论证,primary
+he-zhen-gender-subjugation-interlocks-capitalism-imperialism-patriarchy,src-hezhen-birth-chinese-feminism-cup,出版社内容提要，第1—3段；目录所列何殷震六篇论文,secondary
+cai-yuanpei-education-personality,wikisource-cai-education-1900,《一九〇〇年以来教育之进步》‘教育之高尚理想’,primary
+hu-shi-hypothesis-verification-method,iep-modern-chinese-expansion,"section 4.c ‘Hu Shi’, final paragraph",secondary
+liang-shuming-cultural-inward-moderation,iep-modern-chinese-philosophy,"section 3.c, paragraphs 3–4",secondary
+zhang-junmai-mind-free-will-causality,iep-zhang-junmai-expansion,"section 2, paragraphs 7–10",secondary
+sun-yat-sen-livelihood-public-responsibility,iep-modern-chinese-expansion,"section 3.b, paragraph ending with the third Principle",secondary
+hu-shi-problems-before-isms,wikisource-hushi-problems-isms,《问题与主义》第一节,primary
+xiong-shili-wisdom-nondual,sep-modern-confucianism-2023,"section 3, paragraphs 1–2",secondary
+xiong-shili-reality-internal-self-realization,sep-modern-confucianism-expansion-2023,"section 3, paragraphs 4–6, citing Xiong 1932 [2015], pp. 25–26, 159",secondary
+lu-xun-selective-cultural-appropriation,src-luxun-nalalism,《拿来主义》结尾“占有，挑选”与总结段,primary
+li-da-dialectics-logic-epistemology-unified-practical-philosophy,src-lida-knight-epistemology-logic,章首内容提要，第1句,secondary
+ma-yifu-six-arts-interconnected-hermeneutic-whole,src-mayifu-liuyilun-zhexueyanjiu,论文摘要，第3—4句，论“道—道术”层次与诠释学循环,secondary
+zhang-dongsun-knowledge-culturally-and-linguistically-mediated,src-zhangdongsun-iep-topics,“Zhang Dongsun: Pluralistic Cultural Epistemology”第2—3段,secondary
+zhang-junmai-science-limited-before-free-life-outlook,src-zhangjunmai-iep,第2节“The Debate of 1923 and Zhang's Moral Metaphysics”，第2—5段,secondary
+ai-siqi-philosophy-worldview-practical,src-ai-siqi-dazhong-zhexue-fudan-study,PDF第3—4页，讨论艾思奇《大众哲学》“哲学就是关于世界观的学问”定义段,secondary
+ai-siqi-philosophy-popular-language,atlantis-ai-siqi-popular-philosophy-2017,"publisher abstract, sentences 1–3",primary
+mao-zedong-contradiction-particularity-method,mia-mao-on-contradiction-expansion,《矛盾论》第四节‘主要的矛盾和主要的矛盾方面’末段,primary
+feng-youlan-true-real-realm,iep-feng-youlan,"Philosophy, paragraph 2; section 3, paragraph 1",secondary
+feng-youlan-universal-particular-logical-analysis,iep-feng-youlan-expansion,"section 2.b, paragraphs 2–4",secondary
+he-lin-confucianism-organic-renewal,src-he-lin-wenhua-yu-rensheng-scan,《文化与人生》第一篇〈儒家思想的新开展〉开篇,primary
+jin-yuelin-dao-formed-stuff-unity,src-jinyuelin-hu-theory-dao-wiley,章内“Form and Stuff”及“Reality and Process”两节,secondary
+mao-zedong-practice-truth,mia-mao-on-practice,《实践论》结论部分,primary
+qian-mu-cultural-subjectivity-without-rejecting-western-methods,src-qianmu-political-institutions-ntu,论文摘要，第2—4句,secondary
+tang-junyi-human-spirit-intrinsic-value,sep-modern-confucianism-2023,"section 4, paragraphs 2–4",secondary
+fang-dongmei-universe-living-field,src-fang-dongmei-chinese-life-quoted,《中国人生哲学》1985年第6版，第114—115页；网页注xiv所引段落,secondary
+xu-fuguan-embodied-moral-recognition,sep-modern-confucianism-expansion-2023,"sections 3.1 and 4.4, paragraphs 1–7",secondary
+xu-fuguan-heart-fasting-artistic-subject,src-xu-fuguan-art-spirit-manuscript,PDF第73—93页，〈第六节 心斋与知觉活动〉开篇及〈艺术精神的主体〉段,secondary
+mou-zongsan-autonomy-known-practically,sep-modern-confucianism-2023,"section 3.3, paragraphs 3–8",secondary
+mou-zongsan-moral-feelings-true-self,sep-modern-confucianism-expansion-2023,"section 4.2, paragraphs 4–10",secondary
+tang-junyi-affective-connection-mind-world,sep-modern-confucianism-expansion-2023,"section 3.2, paragraphs 6–9",secondary
+lao-szekwang-fundamental-question-method,src-lao-szekwang-method-sinica,PDF第74—76页“基源研究法”讨论，转引《新编中国哲学史》卷一第14—15页,secondary
+wang-ruoshui-real-social-practical-human,src-wang-ruoshui-human-starting-point,“从抽象王国到现实的人的世界”第76—81段及“要把劳动者看作人”第83—90段,primary
+wang-ruoshui-socialist-alienation-humanism,sage-wang-ruoshui-alienation-1984,journal landing-page abstract and editorial introduction,primary
+li-zehou-subjectality-productive-practice,li-zehou-subjectality-response-1999,"Philosophy East and West 49.2 (1999), pp. 176–180；并参〈关于主体性的补充说明〉（1985）第15页",secondary
+zhang-dainian-inclusive-harmony,src-zhang-dainian-jianhe-tsinghua,《张岱年全集》第6卷第225页“兼和”定义；第8卷第602页〈八十自述〉,secondary
+feng-qi-wisdom-general-epistemology,ecnu-fengqi-wisdom-2005,"abstract, sentences 1–4",secondary
+zhang-dainian-creative-comprehensive-synthesis,wiley-zhang-dainian-creative-synthesis-2002,"chapter 12, title and overview",secondary
+li-zehou-cultural-sedimentation-aesthetic-body,uhp-li-zehou-sedimentation-2018,"chapter 13, pp. 313–334, title and chapter framing",secondary
+feng-qi-theory-into-method-and-virtue,src-feng-qi-wisdom-introduction,〈智慧的探索——《智慧说三篇》导论〉开篇回顾“两化”命题及结尾“通过它并且超过它”段,primary
+zhang-shiying-difference-and-interconnection,src-zhang-shiying-similarity-communication-pku,《北京大学学报》1995年第4期，第53—59页；网页摘要全文,primary
+cheng-chung-ying-onto-hermeneutic-integration,cheng-onto-hermeneutics-2000,"Journal of Chinese Philosophy 27.1 (2000), pp. 33–38, 61–68",secondary
+tu-weiming-anthropocosmic-embedded-humanity,tu-ecological-turn-2001,"Daedalus 130.4 (2001), p. 244",secondary
+wang-hui-depoliticization-naturalizes-power,wang-hui-depoliticized-2006,"New Left Review II/41 (2006), pp. 39–45, especially “State and ideology”",primary
+zhao-tingyang-world-as-political-unit,zhao-tingyang-tianxia-2009,"Diogenes 56.1 (2009), abstract, pp. 5–6",secondary
+yang-guorong-concrete-metaphysics-authentic-being,yang-guorong-philosophical-horizons-2019,"Philosophical Horizons, chap. 1 “Metaphysics and the Metaphysical,” pp. 1–22; chap. 7, pp. 183–210",secondary
+robin-wang-yinyang-relational-generativity,robin-wang-yinyang-2012,"Yinyang, Introduction, pp. 6–12; chap. 2, pp. 41–82",primary
+jiang-qing-triple-political-legitimacy,jiang-qing-humane-authority-2013,"A Confucian Constitutional Order, chap. 1, section “Threefold Legitimacy”",primary
+chen-lai-relational-value-priorities,chen-lai-core-values-2015,《中华文明的核心价值》导论；清华大学机构页首段,primary
+huang-yong-self-other-one-body,huang-yong-egoism-altruism-2018,"Frontiers of Philosophy in China 13.2 (2018), abstract and pp. 226–230",secondary
+bai-tongdong-confucian-hybrid-regime,bai-tongdong-against-equality-2019,"Against Political Equality, book abstract and chap. 3 “A Confucian Hybrid Regime”",secondary
+li-chenyang-dynamic-harmony-through-difference,li-chenyang-dynamic-harmony-2023,"Reshaping Confucianism, chap. 1, pp. 27–52; Oxford Academic abstract",secondary

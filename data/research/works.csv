@@ -1,0 +1,7 @@
+work_id,canonical_title,work_type,composition_start,composition_end,dating_precision,authorship_status,research_status,reviewer,reviewed_at
+work-analects,论语,received-text,-475,-221,layered,disciples-and-later-compilers,bibliography-started,phase1-editorial,2026-07-14
+work-laozi,老子／道德经,received-text,-400,-250,disputed,traditional-attribution-and-layered-text,bibliography-started,phase1-editorial,2026-07-14
+work-mozi,墨子,received-text,-450,-250,layered,mohist-school-corpus,bibliography-started,phase1-editorial,2026-07-14
+work-mengzi,孟子,received-text,-350,-250,approximate,mencius-and-disciples,bibliography-started,phase1-editorial,2026-07-14
+work-zhuangzi,庄子,received-text,-320,-150,layered,inner-chapters-and-later-material,bibliography-started,phase1-editorial,2026-07-14
+work-xunzi,荀子,received-text,-300,-200,layered,xunzi-and-school-material,bibliography-started,phase1-editorial,2026-07-14

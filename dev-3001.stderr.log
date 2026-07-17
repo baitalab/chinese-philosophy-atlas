@@ -1,0 +1,8 @@
+⨯ Another next dev server is already running.
+
+- Local:        http://localhost:3000
+- PID:          50352
+- Dir:          D:\windata\文档\中国哲学sol
+- Log:          .next\dev\logs\next-development.log
+
+Run taskkill /PID 50352 /F to stop it.

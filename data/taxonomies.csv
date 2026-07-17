@@ -1,0 +1,75 @@
+kind,id,label_zh,label_en,color
+period,ancient-preqin,上古与先秦,Antiquity & pre-Qin,#b56f4f
+period,qin-han,秦汉,Qin–Han,#d39a3c
+period,wei-jin-tang,魏晋隋唐,Wei–Jin–Sui–Tang,#73966f
+period,song-yuan-ming-qing,宋元明清,Song–Yuan–Ming–Qing,#4f8790
+period,late-qing-republic,晚清民国,Late Qing & Republic,#7466ae
+period,contemporary-china,二十世纪至今,20th century–present,#aa596f
+tradition,early-cosmology,早期宇宙论,Early cosmology,#9d8f7a
+tradition,early-ru,早期儒家叙事,Early Ru tradition,#c86a52
+tradition,changes,易学,Changes studies,#9477b5
+tradition,confucianism,儒家,Confucianism,#c85f4d
+tradition,confucian-debate,儒家论辩,Confucian debate,#cf7a5d
+tradition,han-confucianism,汉代儒学,Han Confucianism,#c47d4f
+tradition,classical-scholarship,经学,Classical scholarship,#b77a45
+tradition,daoism,道家 / 道教,Daoism,#5d9982
+tradition,huang-lao,黄老,Huang–Lao,#6d9d72
+tradition,mohism,墨家,Mohism,#4d8f9d
+tradition,legalist,法家,Legalist currents,#637caa
+tradition,school-names,名家,School of Names,#8c72ad
+tradition,naturalists,阴阳家 / 自然论,Naturalists,#8c9c55
+tradition,yangism,杨朱学派,Yangism,#9c8065
+tradition,agrarianism,农家,Agrarianism,#789657
+tradition,military,兵家,Military thought,#826d62
+tradition,administrative,行政思想,Administrative thought,#6c7891
+tradition,syncretism,杂家 / 综合思想,Syncretism,#8e8871
+tradition,xuanxue,玄学,Xuanxue,#626c9c
+tradition,naturalism,自然论,Naturalism,#70926e
+tradition,chinese-buddhism,中国佛教,Chinese Buddhism,#9b7650
+tradition,buddhism,佛教,Buddhism,#9b7650
+tradition,chan-buddhism,禅宗,Chan Buddhism,#8b745f
+tradition,tiantai-buddhism,天台宗,Tiantai Buddhism,#9c765b
+tradition,sanlun-buddhism,三论宗,Sanlun Buddhism,#99705e
+tradition,huayan-buddhism,华严宗,Huayan Buddhism,#aa7950
+tradition,yogacara-buddhism,唯识学,Yogācāra,#9f6f57
+tradition,confucian-revival,儒学复兴,Confucian revival,#b8664d
+tradition,neo-confucianism,宋明理学,Neo-Confucianism,#a85648
+tradition,practical-learning,事功 / 实学,Practical learning,#96734c
+tradition,taizhou-school,泰州学派,Taizhou school,#ad5d4f
+tradition,islamic-confucianism,回儒,Islamic Confucianism,#4e8d79
+tradition,evidential-research,考据学 / 朴学,Evidential research,#607f9c
+tradition,confucian-reform,儒学改革,Confucian reform,#9a5f63
+tradition,liberalism,自由主义,Liberalism,#557aa5
+tradition,translation,翻译思想,Translation thought,#6a83a8
+tradition,revolutionary-thought,革命思想,Revolutionary thought,#aa4f4b
+tradition,republicanism,共和思想,Republicanism,#a75a4c
+tradition,anarchism,无政府主义,Anarchism,#865c77
+tradition,feminism,女性主义,Feminism,#b55e8a
+tradition,aesthetics,美学,Aesthetics,#a66aa3
+tradition,pragmatism,实用主义,Pragmatism,#677eaa
+tradition,modern-confucianism,现代新儒学,Modern Confucianism,#a45050
+tradition,analytic-philosophy,分析哲学,Analytic philosophy,#477fa2
+tradition,pluralist-epistemology,多元认识论,Pluralist epistemology,#557fa6
+tradition,idealism,唯心论 / 观念论,Idealism,#7667a2
+tradition,chinese-marxism,中国马克思主义,Chinese Marxism,#b34e43
+tradition,materialism,唯物论,Materialism,#7a7858
+tradition,epistemology,认识论,Epistemology,#557d9c
+tradition,practical-philosophy,实践哲学,Practical philosophy,#8b6b4f
+tradition,comparative,比较哲学,Comparative philosophy,#6c6ea4
+tradition,political-confucianism,政治儒学,Political Confucianism,#a45b52
+tradition,critical-theory,批判理论,Critical theory,#875d73
+tradition,political-philosophy,政治哲学,Political philosophy,#8c5f65
+tradition,historiography,史学思想,Historiographical thought,#69788b
+domain,tiandao-metaphysics,天道与形上,"Heaven, cosmos & metaphysics",#4038a0
+domain,mind-human-nature,心性与人性,Mind & human nature,#c238b4
+domain,knowledge-method,知识与方法,Knowledge & method,#b82fb7
+domain,names-language,名辩与语言,"Names, logic & language",#8ecfe5
+domain,ethics-cultivation,伦理与修养,Ethics & self-cultivation,#f0b447
+domain,politics-governance,政治与治理,Politics & governance,#da5733
+domain,ritual-law,礼法与制度,"Ritual, law & institutions",#9b5a38
+domain,religion-transcendence,宗教与超越,Religion & transcendence,#5aa8a6
+domain,nature-technology,自然与技艺,"Nature, science & technology",#5376d8
+domain,history-culture,历史与文化,History & culture,#92969a
+domain,education-hermeneutics,教育与诠释,Education & interpretation,#8f6bad
+domain,aesthetics-art,艺术与审美,Art & aesthetics,#782bd1
+domain,society-world,社会与天下,Society & world order,#687b92

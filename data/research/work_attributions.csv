@@ -1,0 +1,7 @@
+attribution_id,work_id,person_id,role,certainty,source_id,excerpt_id,review_status,reviewer,reviewed_at
+attr-analects-confucius,work-analects,confucius,textual-speaker,attested,ctext-analects,,provisional,phase1-editorial,2026-07-14
+attr-laozi-laozi,work-laozi,laozi,traditional-author,disputed,ctext-laozi,,provisional,phase1-editorial,2026-07-14
+attr-mozi-mozi,work-mozi,mozi,school-founder-and-attributed-author,layered,ctext-mozi,,provisional,phase1-editorial,2026-07-14
+attr-mengzi-mencius,work-mengzi,mencius,textual-speaker-and-attributed-author,probable,ctext-mengzi,,provisional,phase1-editorial,2026-07-14
+attr-zhuangzi-zhuangzi,work-zhuangzi,zhuangzi,inner-chapter-attribution,layered,ctext-zhuangzi,,provisional,phase1-editorial,2026-07-14
+attr-xunzi-xunzi,work-xunzi,xunzi,authorial-core,layered,ctext-xunzi,,provisional,phase1-editorial,2026-07-14

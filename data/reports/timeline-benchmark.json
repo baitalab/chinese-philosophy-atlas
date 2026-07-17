@@ -1,0 +1,25 @@
+{
+  "benchmark": "timeline-position-and-filter",
+  "runtime": "v24.13.0",
+  "platform": "win32-x64",
+  "results": [
+    {
+      "nodes": 100,
+      "runs": 40,
+      "medianMs": 0.015,
+      "p95Ms": 0.204
+    },
+    {
+      "nodes": 1000,
+      "runs": 40,
+      "medianMs": 0.078,
+      "p95Ms": 0.225
+    },
+    {
+      "nodes": 10000,
+      "runs": 40,
+      "medianMs": 0.665,
+      "p95Ms": 1.16
+    }
+  ]
+}

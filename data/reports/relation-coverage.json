@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-07-17T13:05:35.136Z",
+  "people": 170,
+  "claims": 241,
+  "publishedRelations": 529,
+  "peopleWithRelations": 170,
+  "peopleWithoutRelations": 0,
+  "polarity": {
+    "negative": 119,
+    "positive": 410
+  },
+  "influenceLevel": {
+    "conceptual-only": 488,
+    "explicit": 14,
+    "probable": 27
+  },
+  "relationsByPeriod": {
+    "ancient-preqin": 195,
+    "qin-han": 93,
+    "wei-jin-tang": 123,
+    "song-yuan-ming-qing": 168,
+    "late-qing-republic": 113,
+    "contemporary-china": 121
+  },
+  "peopleWithoutRelationsByPeriod": {
+    "ancient-preqin": [],
+    "qin-han": [],
+    "wei-jin-tang": [],
+    "song-yuan-ming-qing": [],
+    "late-qing-republic": [],
+    "contemporary-china": []
+  },
+  "degree": {
+    "minimum": 1,
+    "median": 5,
+    "maximum": 35,
+    "highest": [
+      {
+        "personId": "xunzi",
+        "count": 35
+      },
+      {
+        "personId": "confucius",
+        "count": 33
+      },
+      {
+        "personId": "mencius",
+        "count": 33
+      },
+      {
+        "personId": "zhuangzi",
+        "count": 26
+      },
+      {
+        "personId": "laozi",
+        "count": 24
+      },
+      {
+        "personId": "mozi",
+        "count": 23
+      },
+      {
+        "personId": "xiong-shili",
+        "count": 14
+      },
+      {
+        "personId": "cheng-yi",
+        "count": 13
+      },
+      {
+        "personId": "dong-zhongshu",
+        "count": 13
+      },
+      {
+        "personId": "wang-chong",
+        "count": 13
+      },
+      {
+        "personId": "han-fei",
+        "count": 12
+      },
+      {
+        "personId": "hu-shi",
+        "count": 12
+      }
+    ]
+  },
+  "periodPairs": {
+    "ancient-preqin -> ancient-preqin": 105,
+    "ancient-preqin -> contemporary-china": 14,
+    "ancient-preqin -> late-qing-republic": 7,
+    "ancient-preqin -> qin-han": 26,
+    "ancient-preqin -> song-yuan-ming-qing": 17,
+    "ancient-preqin -> wei-jin-tang": 22,
+    "contemporary-china -> contemporary-china": 19,
+    "contemporary-china -> late-qing-republic": 7,
+    "late-qing-republic -> contemporary-china": 32,
+    "late-qing-republic -> late-qing-republic": 19,
+    "late-qing-republic -> qin-han": 1,
+    "late-qing-republic -> wei-jin-tang": 1,
+    "qin-han -> ancient-preqin": 1,
+    "qin-han -> contemporary-china": 22,
+    "qin-han -> late-qing-republic": 12,
+    "qin-han -> qin-han": 6,
+    "qin-han -> song-yuan-ming-qing": 13,
+    "qin-han -> wei-jin-tang": 12,
+    "song-yuan-ming-qing -> ancient-preqin": 3,
+    "song-yuan-ming-qing -> contemporary-china": 15,
+    "song-yuan-ming-qing -> late-qing-republic": 24,
+    "song-yuan-ming-qing -> song-yuan-ming-qing": 63,
+    "song-yuan-ming-qing -> wei-jin-tang": 6,
+    "wei-jin-tang -> contemporary-china": 12,
+    "wei-jin-tang -> late-qing-republic": 10,
+    "wei-jin-tang -> song-yuan-ming-qing": 27,
+    "wei-jin-tang -> wei-jin-tang": 33
+  }
+}

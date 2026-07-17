@@ -1,0 +1,13 @@
+work_id,locale,title,alternative_titles,translation_status,reviewer,reviewed_at
+work-analects,zh-CN,《论语》,论语,reviewed,phase1-editorial,2026-07-14
+work-analects,en,The Analects,Lunyu,reviewed,phase1-editorial,2026-07-14
+work-laozi,zh-CN,《老子》,道德经,reviewed,phase1-editorial,2026-07-14
+work-laozi,en,Laozi,Dao De Jing,reviewed,phase1-editorial,2026-07-14
+work-mozi,zh-CN,《墨子》,,reviewed,phase1-editorial,2026-07-14
+work-mozi,en,Mozi,,reviewed,phase1-editorial,2026-07-14
+work-mengzi,zh-CN,《孟子》,,reviewed,phase1-editorial,2026-07-14
+work-mengzi,en,Mengzi,Mencius,reviewed,phase1-editorial,2026-07-14
+work-zhuangzi,zh-CN,《庄子》,南华经,reviewed,phase1-editorial,2026-07-14
+work-zhuangzi,en,Zhuangzi,,reviewed,phase1-editorial,2026-07-14
+work-xunzi,zh-CN,《荀子》,,reviewed,phase1-editorial,2026-07-14
+work-xunzi,en,Xunzi,,reviewed,phase1-editorial,2026-07-14
